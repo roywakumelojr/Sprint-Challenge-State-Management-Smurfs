@@ -37,15 +37,15 @@ Reducers are responsible for receiving the content that is passed to them from t
 Store:
 The store is responsible for holding the application's date in one centralized location which allows various parts of the application to access specific pieces of information.
 
-- [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+- [X] What is the difference between Application state and Component state? When would be a good time to use one over the other?
 
 Application state is on the global level and can be accessed directly by other components where as component state is a local level state. Application state is best suited for large size application and component state is best for small size applications.
 
-- [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
+- [X] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 
 Redux-thunk allows developer to create write action creators that return a function instead of an action.
 
-- [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
+- [X] What is your favorite state management system you've learned and this sprint? Please explain why!
 
 My favorite state state management system would context because i feel it's much easier to work with and I also like that it is build into react thus eliminating the need for adding dependencies.
 
